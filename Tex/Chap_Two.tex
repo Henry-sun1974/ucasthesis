@@ -1,0 +1,72 @@
+\chapter{一个用于直播电商监管的营销行为特征库}
+%\label{chap:Long-Term Feature Banks for Live Streaming E-commerace Video Understanding}
+参阅论文：Long-Term Feature Banks for Detailed Video Understanding
+\href{https://github.com/facebookresearch/video-long-term-feature-banks}
+
+[摘要]
+为了更好地理解直播电商视频中营销事件，需要将视频正在发生的行为与过去联系起来，并将营销事件置于上下文中。在本节中，为了使现有的视频模型也能做到这一点，借鉴长期特征库的思想，提出一个直播电商营销行为长期库，利用过去直播电商视频监管过程中提取的支持信息，以增强当前最先进的视频模型，有效弥补这些模型只能查看5秒以内的短片。实验表明，使用长期特征库增强 3D 卷积网络可以在四个具有挑战性的视频数据集上产生最先进的结果：AVA、EPIC-Kitchens 和 Charades，并在现有的直播电商监管数据集上达到81.7。
+
+\section{引言}
+\subsection{Motivation}
+直播电商监管的关键是如何识别视频中的营销事件，由于营销事件是个典型的复杂事件，因此要想正确、快速识别这些事件，这需要将视频现在发生的事情与过去发生的事情联系起来。 如果没有利用过去来理解现在的能力，作为监管人员，是无法理解我们正在监管的内容。
+
+\subsection{Relative Work}
+长期以来，计算机视觉研究中使用 ImageNet 预训练网络从孤立的帧中提取特征，然后将这些特征用作训练池或循环网络的输入，这些相同的特征既反映当前的背景，也表达了长期的背景。 Facebook 基于可通过使用预先计算的视觉特征来利用长期时间信息这一理念[25, 31, 45, 57]，提出了一个长期特征库的想法，该特征库存储整部视频的丰富的时间索引表示，即将过去和（如果可用）未来场景、对象和动作的信息编码，存储形成长期特征库。 这些信息支持上下文内容，允许视频模型（例如 3D 卷积网络）更好地推断当前正在发生的事情。 该长期特征库能够改进最先进的视频模型，克服了大多数预测仅基于来自短视频剪辑信息的不足，有效解决3D卷积端到端网络必须密集采样才能有效工作和视频输入片段较短的问题。
+
+同时将当前信息与长期信息解耦，将长期特征库视为0增强标准视频模型的辅助组件，例如最先进的 3D CNN。 这种设计使长期特征库能够存储灵活的支持信息，例如与 3D CNN 计算的不同的对象检测特征。
+
+\subsection{Our Approach}
+本节借鉴长期特征库思想，提出了一个基于直播电商监管营销行为特征库。在实践应用中，这个营销行为特征库可与 3D CNN 简单集成起来。 实验证明了多种机制是可行的，包括一种注意力机制，它将关于当前的信息（来自 3D CNN）与存储在长期特征库中的远程信息相关联。 在对象级以及帧或视频级预测的数据集上结果表明，这个特征库可在具有不同输出要求的不同任务中得以应用。 最后，大量的实验说明，使用营销行为特征库增强 3D CNN 在直播电商监管视频视频数据集上产生了最先进的结果。消融研究也表明，这些任务的改进源于长期信息的整合。
+本节结构如下：
+
+\begin{enumerate}
+    \item 第2节介绍了相关的工作。
+
+    \item 第3节介绍了营销行为特征模型
+
+%下载 \href{https://github.com/mohuangrui/ucasthesis}{ucasthesis} 模板并解压。ucasthesis模板不仅提供了相应的类文件，同时也提供了包括参考文献等在内的完成学位论文的一切要素，所以，下载时，推荐下载整个ucasthesis文件夹，而不是单独的文档类。
+    \item 第4节在直播电商监管数据集上的试验
+        \begin{enumerate}
+            \item 实现细节
+            \item 消融实验
+        \end{enumerate}
+    \item 第5节介绍了与SOTA比较
+    %请先查看“常见问题”（章节~\ref{sec:qa}）。
+    \item 最后进行了小结。
+\end{enumerate}
+
+编译完成即可获得本PDF说明文档。而这也完成了学习使用ucasthesis撰写论文的一半进程。什么？这就学成一半了，这么简单？？？，是的，就这么简单！
+
+\section{相关工作}
+
+\subsection{深度神经网络 Deep networks}
+
+Thesis.tex为主文档，其设计和规划了论文的整体框架，通过对其的阅读可以了解整个论文框架的搭建。
+
+\subsection{时间关系模型 Temporal and relationship models}
+
+\subsection{长期视频理解 Long-term video Understanding }
+
+\subsection{时空行为定位 Temporal action localization}
+
+\subsection{信息特征库 Information bank}
+
+\section{直播电商营销行为特征库模型}
+
+\subsection{方法概述}
+
+\subsection{直播电商营销行为特征库}
+
+\subsection{具体使用}
+
+\subsection{实现细节}
+
+\section{实验}
+
+\subsection{实现细节}
+\subsection{消融实验}
+
+\section{与SOTA比较}
+\section{讨论}
+
+----------------------------------------------------------------------------------------------------------------------------
