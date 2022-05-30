@@ -3,52 +3,81 @@
 \contentsline {section}{\numberline {1.2}系统要求}{1}{section.1.2}%
 \contentsline {section}{\numberline {1.3}问题反馈}{2}{section.1.3}%
 \contentsline {section}{\numberline {1.4}模板下载}{2}{section.1.4}%
-\contentsline {chapter}{\numberline {第2章\hspace {.3em}}基于半监督学习的直播电商视频分类网络}{3}{chapter.2}%
-\contentsline {section}{\numberline {2.1}引言}{3}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}背景和动机 Motivation}{3}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}相关工作 Relative Work}{3}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}研究内容和贡献 Our Approach}{3}{subsection.2.1.3}%
-\contentsline {section}{\numberline {2.2}论文主要结构}{4}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Thesis.tex}{4}{subsection.2.2.1}%
+\contentsline {chapter}{\numberline {第2章\hspace {.3em}}\LaTeX {}使用说明}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}先试试效果}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.2}文档目录简介}{3}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Thesis.tex}{3}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}编译脚本}{4}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}Tmp文件夹}{4}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Style文件夹}{5}{subsection.2.2.4}%
-\contentsline {subsection}{\numberline {2.2.5}Tex文件夹}{5}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.2.4}Style文件夹}{4}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}Tex文件夹}{4}{subsection.2.2.5}%
 \contentsline {subsection}{\numberline {2.2.6}Img文件夹}{5}{subsection.2.2.6}%
-\contentsline {subsection}{\numberline {2.2.7}Biblio文件夹}{6}{subsection.2.2.7}%
-\contentsline {section}{\numberline {2.3}数学公式、图表、参考文献等功能}{6}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}数学公式}{6}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.2.7}Biblio文件夹}{5}{subsection.2.2.7}%
+\contentsline {section}{\numberline {2.3}数学公式、图表、参考文献等功能}{5}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}数学公式}{5}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}数学环境}{6}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}表格}{7}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}图片插入}{7}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.3}表格}{6}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}图片插入}{6}{subsection.2.3.4}%
 \contentsline {subsection}{\numberline {2.3.5}算法}{7}{subsection.2.3.5}%
 \contentsline {subsection}{\numberline {2.3.6}参考文献引用}{9}{subsection.2.3.6}%
 \contentsline {section}{\numberline {2.4}常见使用问题}{10}{section.2.4}%
-\contentsline {chapter}{\numberline {第3章\hspace {.3em}}一个用于直播电商监管的营销行为特征库}{13}{chapter.3}%
+\contentsline {chapter}{\numberline {第3章\hspace {.3em}}基于半监督学习的直播电商视频分类网络}{13}{chapter.3}%
 \contentsline {section}{\numberline {3.1}引言}{13}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Motivation}{13}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Relative Work}{13}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Our Approach}{14}{subsection.3.1.3}%
-\contentsline {section}{\numberline {3.2}相关工作}{14}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}深度神经网络 Deep networks}{14}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}时间关系模型 Temporal and relationship models}{15}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}长期视频理解 Long-term video Understanding }{15}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}时空行为定位 Temporal action localization}{15}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}信息特征库 Information bank}{15}{subsection.3.2.5}%
-\contentsline {section}{\numberline {3.3}直播电商营销行为特征库模型}{15}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}方法概述}{15}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}直播电商营销行为特征库}{15}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}具体使用}{15}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}实现细节}{15}{subsection.3.3.4}%
-\contentsline {section}{\numberline {3.4}实验}{15}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}实现细节}{15}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}消融实验}{15}{subsection.3.4.2}%
-\contentsline {section}{\numberline {3.5}与SOTA比较}{15}{section.3.5}%
-\contentsline {section}{\numberline {3.6}讨论}{15}{section.3.6}%
-\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}中国科学院大学学位论文撰写要求}{17}{appendix.A}%
-\contentsline {section}{\numberline {A.1}论文无附录者无需附录部分}{17}{section.A.1}%
-\contentsline {section}{\numberline {A.2}测试公式编号 $\mitLambda ,\mitlambda ,\mittheta ,\bar {\mitLambda },\sqrt {S_{NN}}$}{17}{section.A.2}%
-\contentsline {section}{\numberline {A.3}测试生僻字}{18}{section.A.3}%
-\contentsline {chapter}{参考文献}{19}{section*.20}%
-\contentsline {chapter}{致谢}{21}{appendix*.22}%
-\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{25}{appendix*.23}%
+\contentsline {subsection}{\numberline {3.1.1}研究背景和动机 Motivation}{13}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}相关工作 Relative Work}{13}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}研究内容和贡献 Our Approach}{13}{subsection.3.1.3}%
+\contentsline {section}{\numberline {3.2}论文主要结构}{14}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}第2节}{14}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}第3节}{14}{subsection.3.2.2}%
+\contentsline {chapter}{\numberline {第4章\hspace {.3em}}Chapter Two}{15}{chapter.4}%
+\contentsline {section}{\numberline {4.1}引言}{15}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Motivation}{15}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Relative Work}{15}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Our Approach}{16}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}相关工作}{16}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}深度神经网络 Deep networks}{16}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}时间关系模型 Temporal and relationship models}{17}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}长期视频理解 Long-term video Understanding }{17}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}时空行为定位 Temporal action localization}{17}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}信息库 Information bank}{17}{subsection.4.2.5}%
+\contentsline {section}{\numberline {4.3}直播电商营销行为特征库模型}{18}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}方法概述}{18}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}直播电商营销行为特征库}{18}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}直播电商营销行为特征操作}{19}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}实现细节}{19}{subsection.4.3.4}%
+\contentsline {subsubsection}{\numberline {4.3.4.1}主干}{19}{subsubsection.4.3.4.1}%
+\contentsline {subsubsection}{\numberline {4.3.4.2}RoI池}{19}{subsubsection.4.3.4.2}%
+\contentsline {subsubsection}{\numberline {4.3.4.3}使用}{20}{subsubsection.4.3.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.4.4}训练}{20}{subsubsection.4.3.4.4}%
+\contentsline {subsubsection}{\numberline {4.3.4.5}短期操作基准}{20}{subsubsection.4.3.4.5}%
+\contentsline {section}{\numberline {4.4}实验}{20}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}实现细节}{21}{subsection.4.4.1}%
+\contentsline {subsubsection}{\numberline {4.4.1.1}网络主播检测}{21}{subsubsection.4.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.4.1.2}时间采样}{21}{subsubsection.4.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.4.1.3}训练}{21}{subsubsection.4.4.1.3}%
+\contentsline {subsubsection}{\numberline {4.4.1.4}推理}{21}{subsubsection.4.4.1.4}%
+\contentsline {subsection}{\numberline {4.4.2}消融实验}{22}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}其它数据集上的表现}{22}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}在 AVA 数据集上}{22}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}在EPIC-Kitchens 数据集上}{22}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}在Charades 数据集上}{22}{subsection.4.5.3}%
+\contentsline {section}{\numberline {4.6}讨论}{22}{section.4.6}%
+\contentsline {chapter}{\numberline {第5章\hspace {.3em}}MSL-VID-2019数据集:基于直播电商监管业务视频数据集构建}{23}{chapter.5}%
+\contentsline {section}{\numberline {5.1}引言}{23}{section.5.1}%
+\contentsline {section}{\numberline {5.2}相关工作}{24}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}最初的视频数据集}{24}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}UCF101[17]-Thumos 14[35]和HMDB51[19]数据集}{24}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}MPII人体姿态数据集[2]}{24}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}ActivityNet}{25}{subsection.5.2.4}%
+\contentsline {subsection}{\numberline {5.2.5}Kinetics}{25}{subsection.5.2.5}%
+\contentsline {section}{\numberline {5.3}MSL-VID-2019电商直播视频介绍}{25}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}直播电商营销的行为字典}{25}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}直播电商视频收集和预处理}{26}{subsection.5.3.2}%
+\contentsline {subsubsection}{\numberline {5.3.2.1}提取视频片段}{26}{subsubsection.5.3.2.1}%
+\contentsline {subsubsection}{\numberline {5.3.2.2}通过头部检测自动过滤和主播身份获取候选剪辑}{27}{subsubsection.5.3.2.2}%
+\contentsline {subsubsection}{\numberline {5.3.2.3}噪声检测和过滤}{27}{subsubsection.5.3.2.3}%
+\contentsline {subsubsection}{\numberline {5.3.2.4}手动标注监管目标分类}{27}{subsubsection.5.3.2.4}%
+\contentsline {subsubsection}{\numberline {5.3.2.5}数据统计}{28}{subsubsection.5.3.2.5}%
+\contentsline {section}{\numberline {5.4}试验}{28}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}评价指标}{28}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}行为检测}{28}{subsection.5.4.2}%
